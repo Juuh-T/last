@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Education - Portal de Educação para a Sustentabilidade</title>
+    <meta name="description" content="A Eco Education é um portal completo dedicado a promover a educação ambiental através de guias práticos, artigos, projetos, eventos e ações comunitárias. Junte-se a nós para construir um futuro mais sustentável.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/terra.png" type="image/png">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =================================================================
+    CABEÇALHO E NAVEGAÇÃO PRINCIPAL
+    ================================================================== -->
+    <header class="site-header">
+        <div class="container">
+            <a href="#inicio" class="logo-composto-link">
+                <img src="imagens/terra.png" alt="Ícone do Planeta Terra" class="logo-terra">
+                <img src="imagens/logo-pag.png" alt="Logo da Eco Education" class="logo-principal">
+            </a>
+            <nav class="nav-menu" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li class="has-dropdown">
+                        <a href="#artigos">Artigos</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Reciclagem</a></li>
+                            <li><a href="#">Sustentabilidade</a></li>
+                            <li><a href="#">Energias Renováveis</a></li>
+                            <li><a href="#">Ativismo</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#projetos">Projetos</a>
+                         <ul class="dropdown-menu">
+                            <li><a href="#">Ações Comunitárias</a></li>
+                            <li><a href="#">Educação Infantil</a></li>
+                            <li><a href="#">Parcerias</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#guia-reciclagem">Guia de Reciclagem</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#doe-agora" class="button-doe">APOIAR</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- =================================================================
+    CONTEÚDO PRINCIPAL
+    ================================================================== -->
+    <main>
+
+        <!-- SEÇÃO HERO CAROUSEL -->
+        <section id="inicio" class="hero-section swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="slide-background" style="background-image: url('imagens/aterro.jpg');"></div>
+                    <div class="texto-hero-container">
+                        <h1>Aterros Sanitários: Um Desafio Ambiental Urgente</h1>
+                        <p class="subtitulo-hero">31,9% dos municípios brasileiros ainda utilizam lixões. A conscientização é o primeiro passo para a mudança.</p>
+                        <a href="#artigos" class="button-hero">Leia nossos artigos</a>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <div class="slide-background" style="background-image: url('imagens/Gemini_recicla.png');"></div>
+                    <div class="texto-hero-container">
+                        <h2>Reciclagem: Transformando o Lixo em Futuro</h2>
+                        <p class="subtitulo-hero">A reciclagem reduz o consumo de matérias-primas e energia, promovendo a economia circular.</p>
+                        <a href="#guia-reciclagem" class="button-hero">Aprenda a reciclar</a>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="slide-background" style="background-image: url('imagens/energia_reciclave.png');"></div>
+                    <div class="texto-hero-container">
+                        <h2>Energias Renováveis: O Caminho para um Brasil Mais Limpo</h2>
+                        <p class="subtitulo-hero">Com recordes na geração de energia solar e eólica, o Brasil avança para uma matriz energética mais limpa.</p>
+                        <a href="#doe-agora" class="button-hero">Quero Apoiar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev" aria-label="Slide anterior"></div>
+            <div class="swiper-button-next" aria-label="Próximo slide"></div>
+        </section>
+
+        <!-- SEÇÃO SOBRE NÓS (SUPER EXPANDIDA) -->
+        <section id="sobre" class="secao-sobre">
+            <div class="container-geral">
+                <!-- Subseção: Nossa Missão -->
+                <div class="texto-sobre-container">
+                    <h2 class="titulo-secao-principal">Educar, Inspirar, Transformar</h2>
+                    <p>A Eco Education nasceu da união de estudantes de Ciência da Computação apaixonados por tecnologia e pelo meio ambiente [cite: Projeto_Website-master/README.md]. Acreditamos que a informação é a ferramenta mais poderosa para a mudança. Nosso objetivo é criar uma plataforma acessível e educativa que inspire ações positivas e promova um futuro mais sustentável para todos. Através de artigos baseados em dados, divulgação de projetos de impacto e guias práticos, queremos conectar pessoas, conhecimento e ação.</p>
+                </div>
+
+                <!-- Subseção: Nossa História (Linha do Tempo) -->
+                <h3 class="subtitulo-secao">Nossa História</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2023 - A Semente</h4>
+                            <p>Um grupo de estudantes se une com uma ideia: usar a tecnologia para a educação ambiental.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2024 - O Lançamento</h4>
+                            <p>Lançamento da primeira versão do site Eco Education, com foco em artigos e projetos da PUCPR.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2025 - Primeira Ação</h4>
+                            <p>Organização do nosso primeiro mutirão de limpeza, envolvendo a comunidade local e parceiros.</p>
+                        </div>
+                    </div>
+                     <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Hoje - Expansão</h4>
+                            <p>Buscamos ampliar nosso alcance, criando mais conteúdo e apoiando mais projetos de impacto nacional.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Subseção: Nossos Valores -->
+                <h3 class="subtitulo-secao">Nossos Valores</h3>
+                <div class="container-valores">
+                    <div class="card-valor">
+                        <img src="imagens/icone-educacao.svg" alt="Ícone de livro aberto" class="icone-valor">
+                        <h4>Educação Acessível</h4>
+                        <p>Acreditamos que o conhecimento deve ser livre, de qualidade e acessível para todos, sem exceção.</p>
+                    </div>
+                    <div class="card-valor">
+                        <img src="imagens/icone-acao.svg" alt="Ícone de mão segurando um broto" class="icone-valor">
+                        <h4>Ação e Impacto</h4>
+                        <p>Convertemos teoria em prática através de ações locais que geram resultados reais e mensuráveis.</p>
+                    </div>
+                    <div class="card-valor">
+                        <img src="imagens/icone-comunidade.svg" alt="Ícone de grupo de pessoas" class="icone-valor">
+                        <h4>Força Comunitária</h4>
+                        <p>Ninguém muda o mundo sozinho. Valorizamos a colaboração, a diversidade e a força da comunidade unida.</p>
+                    </div>
+                </div>
+
+                <!-- Subseção: Nossa Equipe -->
+                <h3 class="subtitulo-secao">Nossa Equipe Fundadora</h3>
+                <div class="container-equipe">
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de Gabriel Mota" class="foto-membro"><h4>Gabriel Mota</h4><p class="cargo-membro">Desenvolvedor Full-Stack</p><div class="social-membro"><a href="https://github.com/Motabcc" target="_blank">GitHub</a></div></div>
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de Vicente Miglioniri" class="foto-membro"><h4>Vicente Miglioniri</h4><p class="cargo-membro">Desenvolvedor Front-End</p><div class="social-membro"><a href="https://github.com/vMigliorini" target="_blank">GitHub</a></div></div>
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de Henrique Proust" class="foto-membro"><h4>Henrique Prost</h4><p class="cargo-membro">Especialista em UI/UX</p><div class="social-membro"><a href="https://github.com/HenriqueProst" target="_blank">GitHub</a></div></div>
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de João Sucha" class="foto-membro"><h4>João Victor Sucha</h4><p class="cargo-membro">Desenvolvedor Back-End</p><div class="social-membro"><a href="https://github.com/joaovictorsucha" target="_blank">GitHub</a></div></div>
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de Leonardo de Oliveira" class="foto-membro"><h4>Leonardo de Oliveira</h4><p class="cargo-membro">Analista de Sistemas</p><div class="social-membro"><a href="https://github.com/Leopardo234t" target="_blank">GitHub</a></div></div>
+                    <div class="card-membro"><img src="imagens/placeholder-perfil.png" alt="Foto de Henrique Zadereski" class="foto-membro"><h4>Henrique Zadereski</h4><p class="cargo-membro">Gerente de Projeto</p><div class="social-membro"><a href="https://github.com/HenriqueZade" target="_blank">GitHub</a></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO IMPACTO -->
+        <section id="impacto" class="secao-impacto">
+            <div class="container">
+                <h2 class="titulo-secao-principal">Nosso Impacto em Números</h2>
+                <div class="container-impacto">
+                    <div class="card-impacto"><span class="numero-impacto" data-valor="1500">0</span><p class="descricao-impacto">Quilos de Lixo Removido</p></div>
+                    <div class="card-impacto"><span class="numero-impacto" data-valor="250">0</span><p class="descricao-impacto">Mudas de Árvores Plantadas</p></div>
+                    <div class="card-impacto"><span class="numero-impacto" data-valor="5000">0</span><p class="descricao-impacto">Pessoas Alcançadas</p></div>
+                    <div class="card-impacto"><span class="numero-impacto" data-valor="12">0</span><p class="descricao-impacto">Projetos Apoiados</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO ARTIGOS (EXPANDIDA) -->
+        <section id="artigos" class="secao-cinza">
+            <div class="container">
+                <h2 class="titulo-secao-principal">Nosso Blog</h2>
+                <div class="container-de-cards-blog">
+                    <article class="card-blog"><img src="Imagens/Reciclagem.jpg" alt="Caixas de papelão e outros materiais sendo separados para reciclagem."><div class="card-blog-content"><p class="blog-meta"><span>Reciclagem</span> | 20 Jun, 2025</p><h3>O Primeiro Passo para a Preservação</h3><p>Guia essencial para quem deseja começar a reciclar e entender seu impacto...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                    <article class="card-blog"><img src="Imagens/ecologia.jpg" alt="Mãos segurando um broto de planta com terra ao redor."><div class="card-blog-content"><p class="blog-meta"><span>Sustentabilidade</span> | 15 Jun, 2025</p><h3>Um Olhar Sistêmico Para a Ecologia</h3><p>Análise da produção científica sobre sustentabilidade e as transformações do termo...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                    <article class="card-blog"><img src="Imagens/lixo.jpg" alt="Sacos de lixo acumulados em uma calçada urbana."><div class="card-blog-content"><p class="blog-meta"><span>Cidadania</span> | 10 Jun, 2025</p><h3>O Descarte Incorreto de Lixo no Brasil</h3><p>Ensaio sobre os graves impactos do descarte incorreto de lixo nos centros urbanos...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                    <article class="card-blog"><img src="Imagens/compostagem.jpg" alt="Composteira caseira com camadas de terra e matéria orgânica."><div class="card-blog-content"><p class="blog-meta"><span>DIY</span> | 05 Jun, 2025</p><h3>Compostagem Doméstica: Guia para Iniciantes</h3><p>Aprenda a transformar seus resíduos orgânicos em adubo rico em nutrientes...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                    <article class="card-blog"><img src="Imagens/energia-solar-painel.jpg" alt="Painel solar instalado em um telhado."><div class="card-blog-content"><p class="blog-meta"><span>Energia</span> | 01 Jun, 2025</p><h3>Energia Solar Residencial: Vale a Pena?</h3><p>Analisamos os custos, benefícios e o retorno do investimento em energia solar para sua casa...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                    <article class="card-blog"><img src="Imagens/consumo-consciente.jpg" alt="Pessoa escolhendo produtos a granel em uma loja."><div class="card-blog-content"><p class="blog-meta"><span>Estilo de Vida</span> | 28 Mai, 2025</p><h3>10 Dicas para um Consumo Consciente</h3><p>Pequenas mudanças de hábito que fazem uma grande diferença para o planeta...</p><a href="#" class="leia-mais">Leia Mais</a></div></article>
+                </div>
+                <div class="botao-centralizado"><a href="#" class="botao-principal">Ver Todos os Artigos</a></div>
+            </div>
+        </section>
+
+        <!-- GUIA DE RECICLAGEM INTERATIVO -->
+        <section id="guia-reciclagem" class="secao-guia">
+            <div class="container">
+                <h2 class="titulo-secao-principal">Guia de Reciclagem Interativo</h2>
+                <div class="tabs-reciclagem">
+                    <div class="tab-links">
+                        <button class="tab-link active" data-tab="plastico">Plástico</button>
+                        <button class="tab-link" data-tab="papel">Papel</button>
+                        <button class="tab-link" data-tab="vidro">Vidro</button>
+                        <button class="tab-link" data-tab="metal">Metal</button>
+                    </div>
+                    <div id="plastico" class="tab-content active">
+                        <h3>Reciclagem de Plástico</h3>
+                        <div class="guia-colunas">
+                            <div class="guia-coluna"><h4>✅ O que reciclar:</h4><ul><li>Garrafas PET</li><li>Embalagens de limpeza</li><li>Potes de iogurte</li></ul></div>
+                            <div class="guia-coluna"><h4>❌ O que evitar:</h4><ul><li>Isopor</li><li>Adesivos e fitas</li><li>Embalagens metalizadas</li></ul></div>
+                        </div>
+                    </div>
+                    <div id="papel" class="tab-content">
+                        <h3>Reciclagem de Papel</h3>
+                        <div class="guia-colunas">
+                           <div class="guia-coluna"><h4>✅ O que reciclar:</h4><ul><li>Jornais e revistas</li><li>Caixas de papelão</li><li>Folhas de caderno</li></ul></div>
+                            <div class="guia-coluna"><h4>❌ O que evitar:</h4><ul><li>Papel higiênico usado</li><li>Fotografias</li><li>Papel carbono</li></ul></div>
+                        </div>
+                    </div>
+                     <div id="vidro" class="tab-content">
+                        <h3>Reciclagem de Vidro</h3>
+                        <div class="guia-colunas">
+                           <div class="guia-coluna"><h4>✅ O que reciclar:</h4><ul><li>Garrafas de bebidas</li><li>Potes de alimentos</li><li>Frascos de perfume</li></ul></div>
+                            <div class="guia-coluna"><h4>❌ O que evitar:</h4><ul><li>Espelhos</li><li>Lâmpadas</li><li>Cerâmica e porcelana</li></ul></div>
+                        </div>
+                    </div>
+                     <div id="metal" class="tab-content">
+                        <h3>Reciclagem de Metal</h3>
+                        <div class="guia-colunas">
+                           <div class="guia-coluna"><h4>✅ O que reciclar:</h4><ul><li>Latas de alumínio</li><li>Latas de aço (milho, ervilha)</li><li>Tampas de metal</li></ul></div>
+                            <div class="guia-coluna"><h4>❌ O que evitar:</h4><ul><li>Clipes e grampos</li><li>Esponjas de aço</li><li>Pilhas e baterias</li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO PROJETOS -->
+        <section id="projetos" class="secao-dupla secao-cinza">
+            <div class="container">
+                <div class="coluna-projetos">
+                    <div class="titulo-secao"><h2>Nossos Projetos</h2></div>
+                    <div class="card-produto"><a href="#" target="_blank"><img src="Imagens/material.jpg" alt="Material reciclável sendo pesado."><div class="info-produto"><p>AÇÃO SOCIAL</p><h4>Troca de material reciclável por alimento</h4></div></a></div>
+                    <div class="card-produto"><a href="#" target="_blank"><img src="imagens/vaca.jfif" alt="Projeto Reciclar é Viver."><div class="info-produto"><p>APOIO COMUNITÁRIO</p><h4>Suporte ao Projeto Reciclar é Viver</h4></div></a></div>
+                    <div class="card-produto"><a href="#" target="_blank"><img src="Imagens/reflorestamento.jpg" alt="Mãos plantando uma muda."><div class="info-produto"><p>REFLORESTAMENTO</p><h4>Plantio de mudas de árvores nativas</h4></div></a></div>
+                </div>
+                <div class="coluna-acao">
+                    <h3 class="subtitulo-secao" style="text-align: left; margin-top:0;">Projeto do Mês</h3>
+                    <div class="imagem-destaque"><a href="#" target="_blank"><img src="Imagens/voluntariado_baitaca_2_iat.jpg" alt="Grupo de voluntários."></a></div>
+                    <div class="texto-destaque">
+                        <h2>Conservação da Serra da Baitaca</h2>
+                        <p>Em parceria com o IAT PR, realizamos atividades de manutenção de trilhas e monitoramento da fauna e flora local.</p>
+                        <a href="#doe-agora" class="botao-principal">APOIE ESTE PROJETO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- =================================================================
+        SEÇÃO DE DOAÇÃO PIX
+        ================================================================== -->
+        <section id="doe-agora" class="secao-doacao">
+            <div class="container">
+                <div class="doacao-box">
+                    <div class="doacao-texto">
+                        <h2 class="titulo-secao-principal" style="text-align: left; color: white;">Faça a Diferença. Apoie Nossa Causa.</h2>
+                        <p>Sua doação é o combustível que nos permite continuar educando, agindo e transformando realidades. Cada contribuição, não importa o valor, ajuda a financiar nossos projetos, materiais educativos e ações de campo. Junte-se a nós nesta jornada por um planeta mais verde e justo.</p>
+                        <h3>Doe com PIX de forma rápida e segura!</h3>
+                        <p>Use a chave celular abaixo ou aponte sua câmera para o QR Code.</p>
+                        
+                        <div class="pix-container">
+                            <span id="chave-pix-texto">42991560407</span>
+                            <button id="copiar-pix-btn" class="botao-copiar-pix">
+                                <span class="texto-botao">Copiar Chave</span>
+                                <span class="feedback-copiado">Copiado!</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="doacao-qrcode">
+                        <img src="imagens/qr-code-pix-placeholder.png" alt="QR Code para doação via PIX">
+                        <p>Aponte a câmera e doe!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA DE FOTOS -->
+        <section id="galeria" class="secao-galeria">
+             <div class="container">
+                <h2 class="titulo-secao-principal">Nossas Ações em Imagens</h2>
+                <div class="container-galeria">
+                    <a href="imagens/galeria1_grande.jpg" class="item-galeria"><img src="imagens/galeria1_pequena.jpg" alt="Voluntários limpando uma praia."></a>
+                    <a href="imagens/galeria2_grande.jpg" class="item-galeria"><img src="imagens/galeria2_pequena.jpg" alt="Criança plantando uma árvore."></a>
+                    <a href="imagens/galeria3_grande.jpg" class="item-galeria"><img src="imagens/galeria3_pequena.jpg" alt="Oficina de reciclagem em uma escola."></a>
+                    <a href="imagens/galeria4_grande.jpg" class="item-galeria"><img src="imagens/galeria4_pequena.jpg" alt="Vista de uma horta comunitária."></a>
+                    <a href="imagens/galeria5_grande.jpg" class="item-galeria"><img src="imagens/galeria5_pequena.jpg" alt="Equipe posando para foto em evento."></a>
+                    <a href="imagens/galeria6_grande.jpg" class="item-galeria"><img src="imagens/galeria6_pequena.jpg" alt="Material arrecadado para doação."></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO EVENTOS -->
+        <section id="eventos" class="secao-eventos secao-cinza">
+            <h2 class="titulo-secao-principal">Nossos Próximos Eventos</h2>
+            <div class="container-eventos">
+                <div class="card-evento"><div class="data-evento"><span class="dia">10</span><span class="mes">AGO</span></div><div class="info-evento"><h3>Mutirão de Limpeza na Praia Mole</h3><p><strong>Horário:</strong> 09:00 - 12:00 | <strong>Local:</strong> Ponto de encontro no quiosque principal</p></div><a href="#contato" class="button-evento">Inscreva-se</a></div>
+                <div class="card-evento"><div class="data-evento"><span class="dia">25</span><span class="mes">AGO</span></div><div class="info-evento"><h3>Oficina Online: Compostagem para Apartamentos</h3><p><strong>Horário:</strong> 19:00 - 20:30 | <strong>Local:</strong> Plataforma Zoom (online)</p></div><a href="#contato" class="button-evento">Inscreva-se</a></div>
+            </div>
+        </section>
+
+         <!-- SEÇÃO FAQ (EXPANDIDA) -->
+        <section id="faq" class="secao-faq">
+            <h2 class="titulo-secao-principal">Perguntas Frequentes</h2>
+            <div class="container-faq">
+                <details><summary>Como posso começar a reciclar em casa?</summary><p>O primeiro passo é separar os resíduos secos (papel, plástico, metal, vidro) dos orgânicos (restos de comida) e do lixo de banheiro (rejeito). Verifique o dia e horário da coleta seletiva no seu bairro e embale os recicláveis de forma limpa e seca para evitar mau cheiro e contaminação.</p></details>
+                <details><summary>Todo tipo de plástico é reciclável?</summary><p>Não. A maioria das embalagens possui um símbolo de reciclagem (um triângulo de setas) com um número dentro. Plásticos como os de garrafas PET (1) e embalagens de limpeza (2) são amplamente reciclados. Já plásticos como isopor, adesivos, e embalagens metalizadas (como as de salgadinhos) são de difícil reciclagem e muitas cooperativas não os aceitam. Na dúvida, consulte a cooperativa da sua cidade.</p></details>
+                <details><summary>Como posso ser um voluntário da Eco Education?</summary><p>É muito simples! Fique de olho na nossa seção de "Próximos Eventos" para participar de ações pontuais. Para um voluntariado mais contínuo, entre em contato conosco através do nosso formulário!</p></details>
+                <details><summary>Para onde vai o dinheiro da minha doação?</summary><p>Sua doação é fundamental! Ela é usada para manter nossa plataforma no ar, criar novos conteúdos educativos, financiar a organização de eventos e apoiar diretamente projetos parceiros que realizam o trabalho na ponta.</p></details>
+            </div>
+        </section>
+
+        <!-- SEÇÃO CONTATO -->
+        <section id="contato" class="secao-contato secao-cinza">
+             <h2 class="titulo-secao-principal">Entre em Contato</h2>
+             <div class="container-contato">
+                <div class="info-contato">
+                    <h3>Fale Conosco</h3>
+                    <p>Tem dúvidas, sugestões ou interesse em parcerias? Adoraríamos ouvir você. Preencha o formulário ao lado ou utilize um de nossos canais.</p>
+                    <p><strong>E-mail:</strong><br> <a href="mailto:ecoeducation91@gmail.com">ecoeducation91@gmail.com</a></p>
+                </div>
+                <form action="#" method="POST" class="formulario-contato">
+                    <label for="nome">Nome:</label><input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail:</label><input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label><textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                </form>
+             </div>
+        </section>
+    </main>
+
+    <!-- =================================================================
+    RODAPÉ
+    ================================================================== -->
+    <footer id="footer" class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-column sobre-col">
+                <a href="#inicio" class="footer-logo-composto-link"><img src="imagens/terra.png" alt="Ícone do Planeta Terra" class="footer-logo-terra"><img src="imagens/logo-pag.png" alt="Logo da Eco Education" class="footer-logo-principal"></a>
+                <p class="footer-tagline">Promovendo a conscientização ambiental para um futuro sustentável.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#artigos">Blog</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Participe</h4>
+                <ul>
+                    <li><a href="#doe-agora">Doe Agora</a></li>
+                    <li><a href="#eventos">Seja Voluntário</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Fique por Dentro</h4>
+                <p>Receba novidades e dicas em seu e-mail.</p>
+                <form action="#" class="form-newsletter">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" aria-label="Inscrever-se na newsletter">Inscrever</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2025 Eco Education. Todos os direitos reservados.</p>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
